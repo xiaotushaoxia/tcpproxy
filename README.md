@@ -6,7 +6,7 @@ go get github.com/xiaotushaoxia/tcpproxy
 或者
 require github.com/xiaotushaoxia/tcpproxy
 
-`
+```
 package main
 
 import (
@@ -31,4 +31,4 @@ func main() {
 	proxy.Run(ctx, &wg)
 	wg.Wait()
 }
-`
+```
